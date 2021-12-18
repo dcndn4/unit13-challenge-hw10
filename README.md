@@ -3,6 +3,8 @@ RoboAdvisor HW 10 AWS Unit 13
 
 Robo Advisor for Retirement Plans
 
+![Robo Helper](Images/unit-10-readme-photo.png)
+
 Unit 12 Homework - Tales from the Crypto- ML- Natural Language Processing
 
 Sentiment analysis of Bitcoin and Ethereum articles. 
