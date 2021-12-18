@@ -59,6 +59,8 @@ Lambda function testing:
 	Within Cloudwatch, the options are logs and traces,
 		Underneath that is ‘view logs in CloudWatch’ 
 		and then there is a list of 'log events' that are time stamped. 
+		For the line with the actual error, click on the triangle on the left - 
+		the detail window will open up with line numbers and more info.
 		Each time through, the most recent run will be on top.
 		
 	Each new Cloudwatch tab includes all activity, replacing prior tabs in functionality
