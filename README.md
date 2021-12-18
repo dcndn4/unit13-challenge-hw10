@@ -5,44 +5,16 @@ Robo Advisor for Retirement Plans
 
 ![Robo Helper](Images/robot.jpg)
 
-Unit 12 Homework - Tales from the Crypto- ML- Natural Language Processing
+Unit 13 Homework - Robo Advisor
 
-Sentiment analysis of Bitcoin and Ethereum articles. 
+This was my attempt at building a robo advisor to provide retirement advice, utilizing the Amazon Lex function for the chat box, the s3 buckets to hold the icons, and the lambda functionality to screen the data. This was really challenging!
 
 
 # Technical Notes
 
-## Libraries
-This Jupyter Lab notebook utilizes the following libraries:
+Working on this project included setting up an AWS account, setting up an IAM user, and starting to learn about *very* carefully navigating around the enormous universe that is AWS. It amazes me that you can build something, leave it there, go search for a different function, work on that, search for the previous technology, pick that up again and combine those, and then the 3rd thing.. very well crafted. Still overwhelming!
 
-
- --   Path (pathlib)
- 
- --   NewsApiClient (newsapi)
- 
- --   os
- 
- --   load_dotenv (dotenv)
- 
- --   nltk
- 
- --   analyzer
-
- --   collections
- 
- --   string
- 
- --   wordcloud
- 
- --   spacy
- 
- --   re
-
- --   pandas
-
- --   Numpy
-
- --   matplotlib
+I have the S3 bucket set as totally public, I'll leave everything in place until this assignment is graded or until there starts to be a charge on my account, whichever comes first (or for a week I'm thinking, at the longest). Then I'll go in and delete everything, to not accidentally incur hidden charges suddenly etc..
 
 
 # Acknowledgements
