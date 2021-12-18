@@ -1,0 +1,94 @@
+AWS Technology Steps needed to complete homework
+
+
+Precurser:  (try and gather/add these notes as well at some point)
+	
+	Add AWS account (using less needed email, in case have to close)
+	Add IAM user account, to be regular-access point (rather than main acct)
+	Save IAM user login info (including URL) somewhere safe
+
+
+Step 1:  Log in to AWS using IAM user account (and URL)
+
+	Confirm that location (upper right corner, left of login id) is Oregon
+			(diff locations have diff sw packages, Oregon package
+			is the one most applicable to this class)
+
+	Go to billing info 
+
+		User ID
+		Billing Dashboard
+
+		And confirm there aren’t a bunch of charges getting run up
+
+	Click on AWS in top left to get back to main screen
+
+	Ready to get started!
+
+
+Step 2:  
+
+	Set up bucket for data storage
+
+	(if using JL , or including images in work)  
+
+Depending on utilization:
+
+	If Jupyter Lab - set up notebook instance
+
+
+	If lex – Set up new Bot
+
+		Do process
+
+		Download program pending completion
+
+
+Notes on Lambda function code updates:
+
+Each time you update the code, the ‘Changes not deployed’ box prompts you to click the ‘Deploy’ button. 
+
+Then can click on the ‘Amazon Lex’ browser window, and rebuilt the bot itself.
+
+
+
+Lambda function testing:
+
+	In window for lambda function, midway down page, to the right of yellow “code’ selection is test, then monitor.. the monitor tab opens up to the cloudwatch monitor, which shows any errors in a copy-able presentation.
+
+	Within Cloudwatch, the options are logs and traces,
+		Underneath that is ‘view logs in CloudWatch’ – that’s where I’ve gone
+	Each new Cloudwatch tab includes all activity, replacing prior tabs in 				functionality
+
+
+PS the cloudwatch tab remains, and can just be closed (after multiple iterations will be multiple tabs)
+
+Back to Lex: do build (or re-do after lambda code change)
+Test
+After works, click ‘Publish’ and give it an alias name
+
+Export as zipped file:
+	Go back to main amazon lex page, that shows your bot in the bot list
+	Click on radio button to left of bot name
+	Click on Actions
+	Click on Export
+	Choices: Bot version (1), Platform (Amazon Lex vs Alexa Skills Kit –ASK)
+
+	That will open the usual file-download window on your computer, can save
+		(into downloads folder) and continue from there
+
+
+
+Stopping for the day:
+
+	Download program pending completion
+ (if not already done)
+
+	Terminate JL instance
+	Terminate robo instance
+	Terminate data bucket
+
+
+
+
+	
