@@ -57,8 +57,13 @@ Lambda function testing:
 	In window for lambda function, midway down page, to the right of yellow “code’ selection is test, then monitor.. the monitor tab opens up to the cloudwatch monitor, which shows any errors in a copy-able presentation.
 
 	Within Cloudwatch, the options are logs and traces,
-		Underneath that is ‘view logs in CloudWatch’ – that’s where I’ve gone
-	Each new Cloudwatch tab includes all activity, replacing prior tabs in 				functionality
+		Underneath that is ‘view logs in CloudWatch’ 
+		and then there is a list of 'log events' that are time stamped. 
+		Each time through, the most recent run will be on top.
+		
+	Each new Cloudwatch tab includes all activity, replacing prior tabs in functionality
+	
+	If switching among lambda files in the Lex window, be sure to switch in the lambda window before looking at the log! Otherwise just looking at log for a different program - not useful.
 
 
 PS the cloudwatch tab remains, and can just be closed (after multiple iterations will be multiple tabs)
