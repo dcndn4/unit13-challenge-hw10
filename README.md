@@ -3,7 +3,7 @@ RoboAdvisor HW 10 AWS Unit 13
 
 Robo Advisor for Retirement Plans
 
-![Robo Helper](Images/robot.jpeg)
+![Robo Helper](Images/robot.jpg)
 
 Unit 12 Homework - Tales from the Crypto- ML- Natural Language Processing
 
