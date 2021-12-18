@@ -61,6 +61,8 @@ Lambda function testing:
 		and then there is a list of 'log events' that are time stamped. 
 		For the line with the actual error, click on the triangle on the left - 
 		the detail window will open up with line numbers and more info.
+		And the 'COPY' button over on the right lets you copy the error text to paste 
+		 into Stack Overflow or wherever.
 		Each time through, the most recent run will be on top.
 		
 	Each new Cloudwatch tab includes all activity, replacing prior tabs in functionality
