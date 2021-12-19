@@ -29,6 +29,7 @@ Step 1:  Log in to AWS using IAM user account (and URL)
 Step 2:  
 
 	Set up bucket for data storage
+	To get links, check to left of particular icon when they're in place, and then above there is a list of options, and one of them is to 'copy url'. 
 
 	(if using JL , or including images in work)  
 
